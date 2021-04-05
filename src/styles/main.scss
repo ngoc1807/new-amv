@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+// |– abstracts/
+// |   |– _variables.scss    // Variables
+// |   |– _functions.scss    // Functions
+// |   |– _mixins.scss       // Mixins
+
+// Import library from node_modules
+
+// @import "node_modules/bootstrap/scss/bootstrap.scss";
+
+// |– base/
+// |   |– _animation.scss    // Animation
+// |   |– _global.scss       // Global define
+// |   |– _fonts.scss        // Fonts define
+// |   |– _reset.scss        // Reset/normalize
+// |   |– _utilities.scss    // utilities
+// |
+// |– components/
+
+@import "./components/navbar.scss";
+@import "./components/footer.scss";
+// |– layout/
+
+@import "./layout/note.scss";
+@import "./layout/addNote.scss";
+// |– pages/
+// |   |– _home.scss         // Home specific styles
+// |   |– _about.scss        // About specific styles
+// |   |– _contact.scss      // Contact specific styles
+// |
+// – main.scss              // Main SASS file
