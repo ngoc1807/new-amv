@@ -21,7 +21,7 @@ function App() {
           <Route path="/note" component={NoteScreen} />
           <ul>
             <li>
-              <Link to="/add-note"> ĐĂNG KÝ THÔNG TIN TIÊM CHỦNG </Link>
+              <Link to="/add-note"> ĐĂNG KÝ THÔNG TIN TIÊM CHỦNG sda</Link>
             </li>
             <li>
               <Link to="/note"> QUẢN LÝ SỔ TIÊM CHỦNG </Link>
